@@ -1,0 +1,72 @@
+body{
+  background-color: #F0FFFF;
+}
+.top{
+  height:600px;
+  width:1200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  left:160px;
+  top:60px;
+  background-color: white;
+  border: 1px solid skyblue ;
+}
+.image{
+  height:430px;
+  position:absolute;
+  left: 730px;
+  top:170px;
+}
+.name{
+  position: relative;
+  left: 300px;
+  top:0;
+  font-family: Pacifico;
+  color: green;
+  font-size:50px;
+  margin-bottom: 0;
+  margin:0;
+}
+.descript{
+  margin:0;
+  font-family:Roboto;
+  position: relative;
+  left: 300px;
+  top:0;
+  font-weight: bold;
+}
+.contact{
+  position:absolute;
+  top:108px;
+  font-family:Roboto;
+  left:200px;
+  font-size: 22px;
+  color:blue;
+  font-weight:2px bold;
+  border-bottom: 3px solid blue;
+}
+.about{
+  position: absolute;
+  font-family:Roboto;
+  top: 108px;
+  left: 310px;
+  font-size:22px;
+  color:blue;
+  font-weight: 2px bold;
+  border-bottom: 3px solid blue;
+
+}
+button{
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+  size:100px;
+  position: relative;
+  left: 200px;
+  top:100px;
+}
+#myCanvas{
+  position: absolute;
+  top:800px;
+  left: 400px;
+}
